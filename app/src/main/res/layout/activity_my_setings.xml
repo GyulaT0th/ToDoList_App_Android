@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MySetingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rendezés kiválasztása:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rgRendezes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbABC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="ABC sorrend." />
+
+        <RadioButton
+            android:id="@+id/rbDatCsok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dátum sz. csökkenő." />
+
+        <RadioButton
+            android:id="@+id/rbDatNov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dátum sz. növekvő." />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kész"
+        android:onClick="kesz"/>
+
+</LinearLayout>

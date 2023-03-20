@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.javaoktatas.peldak.todolist.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/RendezNev"
+        android:orderInCategory="99"
+        android:title="ABC sorrend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/RendezDatumCsok"
+        android:orderInCategory="98"
+        android:title="Dátum csökkenő"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/RendezDatumNov"
+        android:orderInCategory="97"
+        android:title="Dátum növekvő"
+        app:showAsAction="never" />
+</menu>
